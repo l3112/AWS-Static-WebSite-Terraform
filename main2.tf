@@ -1,4 +1,4 @@
-# actually not needed if you've done it in another file
+# actually not needed if you've done it in another file >
 
 terraform {
   required_providers {
@@ -13,6 +13,8 @@ terraform {
  provider "aws" {
   region = "us-east-2"
 }
+
+# < actually not needed if you've done it in another file 
  /* 
  module "s3-website"{
      source = "./index.html"
